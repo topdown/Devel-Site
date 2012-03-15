@@ -1,0 +1,146 @@
+/**
+ * @author Jeff Behnke <code@valid-webs.com>
+ * @package  - style.css
+ * @version $Id$
+ * Created 3/15/12, 2:50 AM
+ * @copyright (c) 2009-11 Valid-Webs.com
+ * @license 
+ */
+
+html, body {
+	width: 100%;
+}
+
+/*--------------------------------------------
+
+--------------------------------------------*/
+body {
+	font-family: Arial, sans-serif;
+	font-size:   18px; /* Control the entire typographic font list here */
+	color:       #222;
+	background:  #ccc;
+	margin:      0;
+	padding:     0;
+	line-height: 14px;
+	height:      100%;
+	width:       100%;
+	text-align:  center; /* IE block element center fix */
+}
+
+h1 {
+	font-size:   2.0em;
+	line-height: 2.2em;
+	margin:      0;
+	padding:     5px 10px;
+	background:  #666;
+}
+
+h2 {
+	font-size:   1.8em;
+	line-height: 2.0em;
+	margin:      0;
+	padding:     5px 10px;
+}
+
+h3 {
+	font-size:   1.6em;
+	line-height: 1.8em;
+	margin:      0;
+	padding:     5px 10px;
+}
+
+h4 {
+	font-size:   1.4em;
+	line-height: 1.6em;
+	margin:      0;
+	padding:     5px 10px;
+}
+
+h5 {
+	font-size:   1.2em;
+	line-height: 1.4em;
+	margin:      0;
+	padding:     5px 10px;
+}
+
+h6 {
+	font-size:   1.2em;
+	line-height: 1.2em;
+	margin:      0;
+	padding:     5px 10px;
+}
+
+p {
+	font-size:   1.0em;
+	line-height: 1.2em;
+	margin:      0;
+	padding:     5px 10px;
+
+}
+
+ul {
+	font-size:   1.0em;
+	line-height: 1.2em;
+	margin:      5px 5px 10px 35px;
+	padding:     5px 10px;
+	list-style:  square;
+}
+
+blockquote {
+	display:     block;
+	font-style:  italic;
+	background:  #eee;
+	color:       #333;
+	border:      1px solid #aaa;
+	border-left: 8px solid #aaa;
+	margin:      20px 35px 20px 45px;
+	padding:     10px;
+}
+
+p.seudo:first-letter {
+	display:               block;
+	border:                1px solid #aaa;
+	background:            #fff;
+	color:                 #666;
+	float:                 left;
+	font-size:             36px;
+	padding:               3px 5px;
+	margin:                2px 3px 0 0;
+	line-height:           1.0em;
+	font-family:           'Times New Roman', Times, serif;
+	-moz-border-radius:    3px;
+	-webkit-border-radius: 3px;
+	border-radius:         3px;
+}
+
+.corners {
+	-moz-border-radius:    5px;
+	-webkit-border-radius: 5px;
+	border-radius:         5px;
+}
+
+.shadow {
+	box-shadow:         3px 3px 5px #222;
+	-webkit-box-shadow: 3px 3px 5px #222;
+	-moz-box-shadow:    3px 3px 5px #222;
+}
+
+.slogan {
+	color:       #aaa;
+	font:        24px/80px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:  center;
+	text-shadow: 0 1px 1px #fff;
+}
+
+#content {
+	display:    block;
+	width:      800px;
+	min-height: 400px; /* Full browser supported min-height fix */
+	height:     auto !important;
+	height:     400px;
+	background: #aaa;
+	color:      #fff;
+	margin:     20px auto;
+	text-align: left;
+	padding:    10px;
+}
